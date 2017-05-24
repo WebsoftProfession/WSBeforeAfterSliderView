@@ -15,6 +15,11 @@
 		4A7B7DC11ED48726005F9CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7B7DBF1ED48726005F9CF3 /* LaunchScreen.storyboard */; };
 		4A7B7DCC1ED48727005F9CF3 /* BeforeAfterSliderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7B7DCB1ED48727005F9CF3 /* BeforeAfterSliderViewTests.m */; };
 		4A7B7DD71ED48727005F9CF3 /* BeforeAfterSliderViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7B7DD61ED48727005F9CF3 /* BeforeAfterSliderViewUITests.m */; };
+		4A7B7DE61ED489FE005F9CF3 /* after.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7B7DE41ED489FE005F9CF3 /* after.png */; };
+		4A7B7DE71ED489FE005F9CF3 /* before.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7B7DE51ED489FE005F9CF3 /* before.png */; };
+		4A7B7DEB1ED48A45005F9CF3 /* WSBeforeAfterSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7B7DEA1ED48A45005F9CF3 /* WSBeforeAfterSlider.m */; };
+		4A7B7DF31ED49EAC005F9CF3 /* face_before.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A7B7DF21ED49EAC005F9CF3 /* face_before.jpg */; };
+		4A7B7DF51ED49EB7005F9CF3 /* face_after.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A7B7DF41ED49EB7005F9CF3 /* face_after.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		4A7B7DD21ED48727005F9CF3 /* BeforeAfterSliderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeforeAfterSliderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7B7DD61ED48727005F9CF3 /* BeforeAfterSliderViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeforeAfterSliderViewUITests.m; sourceTree = "<group>"; };
 		4A7B7DD81ED48727005F9CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7B7DE41ED489FE005F9CF3 /* after.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = after.png; sourceTree = "<group>"; };
+		4A7B7DE51ED489FE005F9CF3 /* before.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = before.png; sourceTree = "<group>"; };
+		4A7B7DE91ED48A45005F9CF3 /* WSBeforeAfterSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBeforeAfterSlider.h; sourceTree = "<group>"; };
+		4A7B7DEA1ED48A45005F9CF3 /* WSBeforeAfterSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBeforeAfterSlider.m; sourceTree = "<group>"; };
+		4A7B7DF21ED49EAC005F9CF3 /* face_before.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face_before.jpg; sourceTree = "<group>"; };
+		4A7B7DF41ED49EB7005F9CF3 /* face_after.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face_after.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,9 @@
 		4A7B7DB01ED48726005F9CF3 /* BeforeAfterSliderView */ = {
 			isa = PBXGroup;
 			children = (
+				4A7B7DE81ED48A11005F9CF3 /* Before/After */,
+				4A7B7DE41ED489FE005F9CF3 /* after.png */,
+				4A7B7DE51ED489FE005F9CF3 /* before.png */,
 				4A7B7DB41ED48726005F9CF3 /* AppDelegate.h */,
 				4A7B7DB51ED48726005F9CF3 /* AppDelegate.m */,
 				4A7B7DB71ED48726005F9CF3 /* ViewController.h */,
@@ -138,6 +152,17 @@
 				4A7B7DD81ED48727005F9CF3 /* Info.plist */,
 			);
 			path = BeforeAfterSliderViewUITests;
+			sourceTree = "<group>";
+		};
+		4A7B7DE81ED48A11005F9CF3 /* Before/After */ = {
+			isa = PBXGroup;
+			children = (
+				4A7B7DF21ED49EAC005F9CF3 /* face_before.jpg */,
+				4A7B7DF41ED49EB7005F9CF3 /* face_after.jpg */,
+				4A7B7DE91ED48A45005F9CF3 /* WSBeforeAfterSlider.h */,
+				4A7B7DEA1ED48A45005F9CF3 /* WSBeforeAfterSlider.m */,
+			);
+			name = Before/After;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +270,11 @@
 			files = (
 				4A7B7DC11ED48726005F9CF3 /* LaunchScreen.storyboard in Resources */,
 				4A7B7DBE1ED48726005F9CF3 /* Assets.xcassets in Resources */,
+				4A7B7DF51ED49EB7005F9CF3 /* face_after.jpg in Resources */,
+				4A7B7DE61ED489FE005F9CF3 /* after.png in Resources */,
+				4A7B7DF31ED49EAC005F9CF3 /* face_before.jpg in Resources */,
 				4A7B7DBC1ED48726005F9CF3 /* Main.storyboard in Resources */,
+				4A7B7DE71ED489FE005F9CF3 /* before.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A7B7DB91ED48726005F9CF3 /* ViewController.m in Sources */,
+				4A7B7DEB1ED48A45005F9CF3 /* WSBeforeAfterSlider.m in Sources */,
 				4A7B7DB61ED48726005F9CF3 /* AppDelegate.m in Sources */,
 				4A7B7DB31ED48726005F9CF3 /* main.m in Sources */,
 			);

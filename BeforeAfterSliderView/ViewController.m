@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    wsSlider.beforeImage = [UIImage imageNamed:@"face_before.jpg"];
+    wsSlider.afterImage = [UIImage imageNamed:@"face_after.jpg"];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

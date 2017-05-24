@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BeforeView.h
 //  BeforeAfterSliderView
 //
 //  Created by LK on 23/05/2017.
@@ -7,13 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WSBeforeAfterSlider.h"
 
-@interface ViewController : UIViewController
-{
-    
-    __weak IBOutlet WSBeforeAfterSlider *wsSlider;
-}
-
+@interface WSBeforeAfterSlider : UIView
+@property (nonatomic,strong) UIImage *beforeImage;
+@property (nonatomic,strong) UIImage *afterImage;
 @end
-
