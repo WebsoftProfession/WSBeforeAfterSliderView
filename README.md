@@ -1,4 +1,4 @@
-#WSBeforeAfterSliderSwift - Swift Version Available
+#W SBeforeAfterSliderSwift - Swift Version Available
 
 Enhancements: Added auto play functionality.
 
